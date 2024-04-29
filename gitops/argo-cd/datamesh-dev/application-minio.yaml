@@ -14,9 +14,9 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    repoURL: https://github.com/opendatahub-io-contrib/datamesh-platform.git
+    repoURL: https://github.com/ZagaUS/datamesh-platform.git
     path: deployment/minio/kustomize/overlays/development
-    targetRevision: main
+    targetRevision: argocd-test
     # plugin:
     #   name: argocd-vault-plugin-kustomize
   syncPolicy:

@@ -14,8 +14,8 @@ spec:
     path: gitops/argo-cd/datamesh-dev
     directory:
       include: "*.yaml"
-    repoURL: https://github.com/opendatahub-io-contrib/datamesh-platform.git
-    targetRevision: main
+    repoURL: https://github.com/ZagaUS/datamesh-platform.git
+    targetRevision: argocd-test
   syncPolicy:
     automated:
       prune: true
